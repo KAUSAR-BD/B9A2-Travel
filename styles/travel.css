@@ -466,3 +466,91 @@ footer {
     }
 
 }
+
+@media  screen and (min-width: 576px) and (max-width: 960px) {
+    
+    .header-main {
+
+        width: 100%;
+        height: auto;
+    }
+
+    /* .select-btn {
+        
+    } */
+
+    nav,
+    nav>ul,
+    .popular-tour,
+    .flex-part-1 {
+        flex-direction: column;
+    }
+
+    .flex-part-1{
+        padding-left: 50px;
+    }
+
+    .tour-content {
+        width: auto;
+        padding: 24px;
+    }
+
+    .tour-img {
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    .img-grid-1,
+    .img-grid-2,
+    .img-grid-3 {
+        flex-direction: column;
+    }
+
+
+
+    .flex-part-1 {
+        width: 75%;
+        height: auto;
+    }
+
+    .flex-part-2 {
+        width: 500px;
+        height: auto;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
+    .choose-us-content-1,
+
+    .choose-us-content-2 {
+        width: auto;
+        height: auto;
+    }
+
+    .news-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .last-img {
+        width: 500px;
+        height: auto;
+    }
+
+
+
+    .footer-description {
+        width: 100%;
+    }
+
+    .line {
+        width: 75%;
+    }
+
+    .rights {
+
+        padding-bottom: 80px;
+    }
+
+}
