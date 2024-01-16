@@ -19,7 +19,19 @@ body {
     font-weight: 800;
 }
 
-
+.btn-primary-2 {
+    width: 170px;
+    height: 3rem;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    justify-content: center;
+    padding-left: 20px;
+}
 
 /* Header Style */
 
@@ -73,26 +85,50 @@ nav li a {
     justify-content: center;
     align-items: center;
     background-position: center;
-
+    border-radius: 16px;
 }
 
+.header-content-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.header-content-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.select-btn {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px 20px;
+    gap: 20px;
+    display: inline-flex;
+}
+
+
 /* Main Section Style */
+
 
 .popular-tour {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding-top: 100px;
 }
 
 .tour-content {
     width: 950px;
-    line-height: 1.8rem;
+    line-height: 2.5rem;
 }
 
 .tour-img {
     border-radius: 1rem;
     height: 540px;
-
 }
 
 .your-destination {
@@ -151,8 +187,6 @@ nav li a {
     gap: 20px;
     padding-bottom: 20px;
 }
-
-
 
 
 .choose-us {
@@ -217,10 +251,79 @@ nav li a {
 }
 
 
+.news-content {
+    /* display: flex;
+    justify-content: space-between;
+    padding: 50px 130px;
+    width: 75%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
+.news-section {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 470px;
+    height: 420px;
+}
 
+.news-heading {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 40px;
+}
 
+.news-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 40px;
+    padding-bottom: 20px;
 
+}
+
+.news-line {
+    background: rgba(19, 19, 24, 0.10);
+    width: 390px;
+    height: 1px;
+}
+
+.news-letter {
+    width: 100%;
+    padding: 10px 40px;
+}
+
+.field-1 {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    width: 390px;
+    height: 52px;
+    text-align: center;
+}
+
+.subscribe-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    width: 390px;
+    height: 52px;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.last-img {
+    width: 672px;
+    height: 422px;
+}
 
 
 
@@ -270,6 +373,17 @@ footer {
 
 @media screen and (max-width: 576px) {
 
+    .header-main {
+
+        width: 530px;
+        
+        padding-left: 20px;
+    }
+
+    .select-btn {
+        flex-direction: column;
+    }
+
     nav,
     nav>ul,
     .popular-tour,
@@ -301,6 +415,13 @@ footer {
         height: auto;
     }
 
+    .flex-part-2{
+        width: 500px;
+        height: auto;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+
     .choose-us-content-1,
 
     .choose-us-content-2 {
@@ -308,7 +429,15 @@ footer {
         height: auto;
     }
 
+    .news-content {
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .last-img {
+        width: 500px;
+        height: auto;
+    }
 
 
 
