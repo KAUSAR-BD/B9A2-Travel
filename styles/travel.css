@@ -212,10 +212,10 @@ nav li a {
 
 .flex-part-1 {
     display: flex;
-    margin: auto;
-    width: 60%;
-    gap: 20px;
-    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
 }
 
 .flex-part-2 {
@@ -351,7 +351,7 @@ footer {
     padding-bottom: 1.8rem;
 }
 
-.social-link{
+.social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -383,7 +383,7 @@ footer {
     .header-main {
 
         width: 530px;
-        
+
         padding-left: 20px;
     }
 
@@ -396,6 +396,10 @@ footer {
     .popular-tour,
     .flex-part-1 {
         flex-direction: column;
+    }
+
+    .flex-part-1{
+        padding-left: 50px;
     }
 
     .tour-content {
@@ -422,7 +426,7 @@ footer {
         height: auto;
     }
 
-    .flex-part-2{
+    .flex-part-2 {
         width: 500px;
         height: auto;
         padding-left: 40px;
